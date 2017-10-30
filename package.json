@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "23"
+    "url": "git+ssh://github.com/hlerenow/react-native-segmented-tabs.git"
   },
   "keywords": [
     "react-native",
