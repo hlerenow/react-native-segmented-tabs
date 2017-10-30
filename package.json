@@ -1,0 +1,29 @@
+{
+  "name": "react-native-segmented-tabs",
+  "version": "0.0.1",
+  "description": "A cross platform React-Native component for segmented tabs,work on android & ios,keep the style consistent,keep the style consistent",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "23"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "tabs",
+    "segmented",
+    "android",
+    "ios"
+  ],
+  "author": {
+    "name":"hlere",
+    "email": "595806119@qq.com"
+  },
+  "license": "MIT"
+}
