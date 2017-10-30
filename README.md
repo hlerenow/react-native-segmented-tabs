@@ -39,11 +39,11 @@ class ConsumerComponent extends Component {
   render() {
       return (
           <View>
-            wrapStyle={styles.wrap}
-            selectIndex={this.state.selectIndex} 
-            onPress={this._selectTabs} 
-            items={['日','周','月','年']}/>
-                  />
+            <SegmentedTabs
+              wrapStyle={styles.wrap}
+              selectIndex={this.state.selectIndex} 
+              onPress={this._selectTabs} 
+              items={['日','周','月','年']}/>
           </View>
       );
   }
@@ -69,45 +69,19 @@ tabActiveFontColor | font color of active item | 'white' | string
 
 ## Custom styling
   ```javascript
-      <SegmentedControlTab tabsContainerStyle={styles.tabsContainerStyle}
+      <SegmentedTabs wrapStyle={styles.tabsContainerStyle}
           tabStyle={styles.tabStyle}
           tabTextStyle={styles.tabTextStyle}
-          activeTabStyle={styles.activeTabStyle}
-          activeTabTextStyle={styles.activeTabTextStyle}
-          selectedIndex={1}
-          values={['First', 'Second', 'Third']}
-          onPress= {index => this.setState({selected:index})}
-          />
+          tabHeight={30}
+          tabWidth = {100}
+          ...
+          selectIndex={this.state.selectIndex} 
+          onPress={this._selectTabs} />
 
       const styles = StyleSheet.create({
           tabsContainerStyle: {
             //custom styles
-          },
-          tabStyle: {
-            //custom styles
-            },
-          tabTextStyle: {
-            //custom styles
-          },
-          activeTabStyle: {
-            //custom styles
-            },
-          activeTabTextStyle: {
-            //custom styles
-          },
-          tabBadgeContainerStyle: {
-            //custom styles
-          },
-          activeTabBadgeContainerStyle: {
-            //custom styles
-          },
-          tabBadgeStyle: {
-            //custom styles
-          },
-          activeTabBadgeStyle: {
-            //custom styles
           }
-
       })
 
   ```
