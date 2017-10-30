@@ -1,6 +1,6 @@
 {
   "name": "react-native-segmented-tabs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A cross platform React-Native component for segmented tabs,work on android & ios,keep the style consistent",
   "main": "index.js",
   "directories": {

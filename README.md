@@ -1,4 +1,4 @@
-# react-native-segmented-control-tab(for Android/iOS) 🚀
+# react-native-segmented-tabs(for Android/iOS) 🚀
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 [![Version](https://img.shields.io/npm/v/react-native-segmented-tabs.svg)](https://www.npmjs.com/package/react-native-segmented-tabs)
 [![npm](https://img.shields.io/npm/dt/react-native-segmented-tabs.svg)](https://www.npmjs.com/package/react-native-segmented-tabs)
